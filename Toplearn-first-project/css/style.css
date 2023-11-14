@@ -203,4 +203,19 @@ a {
   }
 }
 
+/* -------------------------------------------- */
 
+.about {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.about-header h2 {
+  color: #474747;
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+.about-header p {
+  color: #858585;
+  font-size: 22px;
+}
