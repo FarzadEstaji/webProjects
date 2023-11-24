@@ -273,6 +273,7 @@ a {
 
 .contact-header {
   text-align: center;
+  margin-bottom: 80px;
 }
 
 .contact-header h2 {
@@ -281,4 +282,39 @@ a {
 }
 .contact-header p {
   font-size: 20px;
+}
+
+.contact-content {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"] {
+  background-color: #fff;
+  color: #444;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 11px;
+  width: 25%;
+}
+
+textarea {
+  background-color: #fff;
+  color: #444;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 25px;
+  width: 50%;
+  margin-top: 20px;
+  height: 200px;
+}
+
+.contact-content button {
+  margin-top: 20px;
+}
+
+::placeholder{
+  color: #858585;
+  font-size: 15px;
+  font-family: "Raleway";
 }
