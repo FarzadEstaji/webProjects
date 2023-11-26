@@ -313,8 +313,29 @@ textarea {
   margin-top: 20px;
 }
 
-::placeholder{
+::placeholder {
   color: #858585;
   font-size: 15px;
   font-family: "Raleway";
 }
+
+/*-------------------------*/
+
+.footer {
+  background-color: #383b43;
+  padding: 100px 0;
+}
+
+.copyright li {
+  color: #858585;
+  display: inline;
+  font-size: 15px;
+  margin: 0 5px;
+}
+
+.copyright a {
+  color: #858585;
+  
+}
+
+
